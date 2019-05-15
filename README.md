@@ -1,3 +1,3 @@
 # learnbymaking
-This Repository has several files required for the learnbymaking series of kits
-The files include Code, libraries and other stuff.  
+Nothing here. For files related to learnbymaking, go to the repository: 
+github.com/learnbymaking/
