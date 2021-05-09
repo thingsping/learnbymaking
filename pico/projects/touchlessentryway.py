@@ -11,9 +11,9 @@ relay2.high()
 buzz = Pin(14, Pin.OUT)
 ldr = ADC(26)
 wmc = WifiModCloud(True)
-ip = wmc.connect_wifi(ssid="rakshipooji", password="5qty7w7gg8123")
+ip = wmc.connect_wifi(ssid="myssid", password="mypassword")
 print("Connected. IP={}".format(ip))
-wmc.setdb_to_firebase(host="courseinabox-b1d6f.firebaseio.com", auth="SjhN2wfl35lFxIhgZLRPLduZuVJ3w6GQoZR9lRyL",
+wmc.setdb_to_firebase(host="myhosturl", auth="mypassword",
                 tree="touchless_entry")
 print("Succesfully set DB to Firebase")
 
