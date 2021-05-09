@@ -13,7 +13,8 @@ ldr = ADC(26)
 wmc = WifiModCloud(True)
 ip = wmc.connect_wifi(ssid="myssid", password="myssidpassword")
 print("Connected. IP={}".format(ip))
-wmc.setdb_to_firebase(host="courseinabox-b1d6f.firebaseio.com", auth="SjhN2wfl35lFxIhgZLRPLduZuVJ3w6GQoZR9lRyL",
+#myhosturl should NOT include the "https://" or the "/" at the end
+wmc.setdb_to_firebase(host="myhosturl", auth="myauth",
                 tree="touchless_entry")
 print("Succesfully set DB to Firebase")
 
